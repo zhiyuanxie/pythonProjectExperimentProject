@@ -116,13 +116,13 @@ def pop_add_stu_sport_win():
     Label(stu_add_win, text='小时每周', width=10).place(x=200, y=320)
 
     def write_sport_excel_file():
-        name_value = stu_name.get() + "\t"
-        stu_number_value = stu_number.get() + "\t"
-        gender_value = gender_text.get() + "\t"
-        age_value = age_number.get() + "\t"
-        height_value = height_number.get() + "\t"
-        weight_value = weight_number.get() + "\t"
-        hometown_value = hometown.get() + "\t"
+        name_value = stu_name.get()
+        stu_number_value = stu_number.get()
+        gender_value = gender_text.get()
+        age_value = age_number.get()
+        height_value = height_number.get()
+        weight_value = weight_number.get()
+        hometown_value = hometown.get()
         hobby_sport1_value = str(hobby_sport1.get())
         hobby_sport2_value = str(hobby_sport2.get())
         hobby_sport3_value = str(hobby_sport3.get())
